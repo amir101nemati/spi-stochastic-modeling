@@ -13,8 +13,9 @@ This project analyzes precipitation data in Tehran (2009–2019) using the Stand
 - Transition matrices were estimated to model the probability of switching between wet, normal, and dry months.
 - States are defined based on SPI thresholds, forming a discrete Markov Chain.
 
-### 2. Continuous-Time Markov Processes
-- Rainfall states are also analyzed over continuous time intervals to assess the duration and transition intensity between conditions.
+### 2. Continuous Modeling Using AR
+- An autoregressive (AR) model was applied to capture the temporal correlation structure in SPI values.
+- This approach helps model SPI as a continuous time series influenced by its own past values.
   
 ### 3. Hidden Markov Models (HMM)
 - Hidden Markov Models are used to identify underlying weather regimes not directly observed from SPI values.
