@@ -15,8 +15,7 @@ This project analyzes precipitation data in Tehran (2009–2019) using the Stand
 
 ### 2. Continuous-Time Markov Processes
 - Rainfall states are also analyzed over continuous time intervals to assess the duration and transition intensity between conditions.
-- Exponential sojourn times are modeled.
-
+  
 ### 3. Hidden Markov Models (HMM)
 - Hidden Markov Models are used to identify underlying weather regimes not directly observed from SPI values.
 - The forward-backward algorithm and state decoding were applied for analysis.
